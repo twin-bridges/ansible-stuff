@@ -1,5 +1,5 @@
 ---
-- hosts: cisco1
+- hosts: cisco
   name: Gather output of show commands
   gather_facts: False
   tasks:
@@ -10,4 +10,6 @@
     include_tasks: info_gather.yml
     loop:
       - show version
+      - show ip int brief
+      - show interfaces
 
