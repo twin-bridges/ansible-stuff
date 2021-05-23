@@ -1,5 +1,5 @@
 ---
-- hosts: cisco
+- hosts: cisco1
   name: Gather output of show commands
   gather_facts: False
   tasks:
@@ -11,31 +11,3 @@
     loop:
       - show version
 
-#   - name: Execute show commands
-#     cisco.ios.ios_command:
-#       commands: show version
-#     register: show_version
-#   
-#   - ansible.builtin.debug: 
-#       var: show_version
-# 
-#   - name: Create per-host directory
-#     ansible.builtin.file:
-#         path: "{{ ansible_host }}"
-#         state: directory
-#         mode: '0755'
-# 
-#   - name: Create pre and post directories
-#     ansible.builtin.file:
-#         path: "{{ ansible_host }}/{{ item }}"
-#         state: directory
-#         mode: '0755'
-#     loop:
-#         - pre
-#         - post
-# 
-#   - name: Save pre show output
-#     ansible.builtin.copy:
-#       content: "{{ show_version }}"
-#       dest: "{{ ansible_host }}/pre/show_version.txt"
-# 

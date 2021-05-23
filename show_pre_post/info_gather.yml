@@ -2,34 +2,22 @@
   - ansible.builtin.debug: 
       var: item
 
-#- hosts: cisco
-#  name: Gather output of show commands
-#  tasks:
-#  - name: Execute show commands
-#    cisco.ios.ios_command:
-#      commands: show version
-#    register: show_version
-#  
-#  - ansible.builtin.debug: 
-#      var: show_version
-#
-#  - name: Create per-host directory
-#    ansible.builtin.file:
-#        path: "{{ ansible_host }}"
-#        state: directory
-#        mode: '0755'
-#
-#  - name: Create pre and post directories
-#    ansible.builtin.file:
-#        path: "{{ ansible_host }}/{{ item }}"
-#        state: directory
-#        mode: '0755'
-#    loop:
-#        - pre
-#        - post
-#
+  - name: Execute show command
+    cisco.ios.ios_command:
+      commands: "{{ item }}"
+    register: output
+
+  - ansible.builtin.debug: 
+      var: output
+
+  - name: Convert show command to proper file name
+    ansible.builtin.set_fact:
+      file_name: "{{ item | regex_replace(' ', '_') }}.txt"
+
+  - ansible.builtin.debug: 
+      var: file_name
+
 #  - name: Save pre show output
 #    ansible.builtin.copy:
-#      content: "{{ show_version }}"
+#      content: "{{ output }}"
 #      dest: "{{ ansible_host }}/pre/show_version.txt"
-#
