@@ -14,6 +14,16 @@
     include_tasks: info_gather.yml
     loop:
       - show version
-      - show ip int brief
-      - show interfaces
+#      - show ip int brief
+#      - show interfaces
 
+  - name: Set the stage to post
+    set_fact:
+      stage: "post"
+
+  - name: Execute show commands
+    include_tasks: info_gather.yml
+    loop:
+      - show version
+#      - show ip int brief
+#      - show interfaces

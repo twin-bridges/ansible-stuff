@@ -18,5 +18,5 @@
 
 - name: Save show output
   ansible.builtin.copy:
-    content: "{{ output }}"
+    content: "{{ output.stdout[0] }}"
     dest: "{{ ansible_host }}/{{ stage }}/{{ file_name }}"
