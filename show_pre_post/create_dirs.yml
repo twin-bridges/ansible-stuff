@@ -1,0 +1,14 @@
+  - name: Create per-host directory
+    ansible.builtin.file:
+        path: "{{ ansible_host }}"
+        state: directory
+        mode: '0755'
+
+  - name: Create pre and post directories
+    ansible.builtin.file:
+        path: "{{ ansible_host }}/{{ item }}"
+        state: directory
+        mode: '0755'
+    loop:
+        - pre
+        - post
