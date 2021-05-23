@@ -6,6 +6,10 @@
   - name: Create the directories
     import_tasks: create_dirs.yml
 
+  - name: Set the stage to pre
+    set_fact:
+      stage: "pre"
+
   - name: Execute show commands
     include_tasks: info_gather.yml
     loop:
