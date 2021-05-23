@@ -5,9 +5,9 @@ Compiled Thu 02-Aug-18 12:15 by prod_rel_team
 
 ROM: System Bootstrap, Version 12.4(22r)YB5, RELEASE SOFTWARE (fc1)
 
-cisco1 uptime is 23 weeks, 5 days, 1 hour, 29 minutes
-System returned to ROM by reload at 10:31:35 PST Tue Dec 8 2020
-System restarted at 10:32:19 PST Tue Dec 8 2020
+cisco2 uptime is 28 weeks, 4 days, 20 hours, 57 minutes
+System returned to ROM by reload at 15:02:58 PST Tue Nov 3 2020
+System restarted at 15:03:42 PST Tue Nov 3 2020
 System image file is "flash:c880data-universalk9-mz.155-3.M8.bin"
 Last reload type: Normal Reload
 Last reload reason: Reload Command
@@ -30,12 +30,12 @@ If you require further assistance please contact us by sending email to
 export@cisco.com.
 
 Cisco 881 (MPC8300) processor (revision 1.0) with 236544K/25600K bytes of memory.
-Processor board ID FTX1512038X
+Processor board ID FTX18298312
 
 5 FastEthernet interfaces
 1 Virtual Private Network (VPN) Module
 256K bytes of non-volatile configuration memory.
-126000K bytes of ATA CompactFlash (Read/Write)
+125440K bytes of ATA CompactFlash (Read/Write)
 
 
 License Info:
@@ -45,13 +45,13 @@ License UDI:
 -------------------------------------------------
 Device#	  PID			SN
 -------------------------------------------------
-*0  	  CISCO881-SEC-K9       FTX1512038X     
+*0  	  CISCO881-K9           FTX18298312     
 
 
 
 License Information for 'c880-data'
-    License Level: advipservices   Type: Permanent
-    Next reboot license Level: advipservices
+    License Level: advsecurity   Type: Permanent
+    Next reboot license Level: advsecurity
 
 
 Configuration register is 0x2102

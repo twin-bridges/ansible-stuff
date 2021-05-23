@@ -10,17 +10,17 @@ GigabitEthernet1 is up, line protocol is up
   ARP type: ARPA, ARP Timeout 04:00:00
   Last input 00:00:00, output 00:00:00, output hang never
   Last clearing of "show interface" counters 1d16h
-  Input queue: 1/375/0/0 (size/max/drops/flushes); Total output drops: 0
+  Input queue: 0/375/0/0 (size/max/drops/flushes); Total output drops: 0
   Queueing strategy: fifo
   Output queue: 0/40 (size/max)
   5 minute input rate 0 bits/sec, 0 packets/sec
   5 minute output rate 0 bits/sec, 0 packets/sec
-     9204 packets input, 660612 bytes, 0 no buffer
+     9332 packets input, 668672 bytes, 0 no buffer
      Received 0 broadcasts (0 IP multicasts)
      0 runts, 0 giants, 0 throttles 
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
      0 watchdog, 0 multicast, 0 pause input
-     13079 packets output, 2936537 bytes, 0 underruns
+     13209 packets output, 2970429 bytes, 0 underruns
      0 output errors, 0 collisions, 0 interface resets
      0 unknown protocol drops
      0 babbles, 0 late collision, 0 deferred
@@ -35,19 +35,19 @@ GigabitEthernet2 is up, line protocol is up
   Full Duplex, 1000Mbps, link type is auto, media type is Virtual
   output flow-control is unsupported, input flow-control is unsupported
   ARP type: ARPA, ARP Timeout 04:00:00
-  Last input 00:00:07, output 00:00:08, output hang never
+  Last input 00:00:22, output 00:00:23, output hang never
   Last clearing of "show interface" counters 42w4d
   Input queue: 0/375/0/0 (size/max/drops/flushes); Total output drops: 0
   Queueing strategy: fifo
   Output queue: 0/40 (size/max)
   5 minute input rate 0 bits/sec, 0 packets/sec
   5 minute output rate 0 bits/sec, 0 packets/sec
-     863729 packets input, 293106591 bytes, 0 no buffer
+     863731 packets input, 293107267 bytes, 0 no buffer
      Received 0 broadcasts (0 IP multicasts)
      0 runts, 0 giants, 0 throttles 
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
      0 watchdog, 0 multicast, 0 pause input
-     863725 packets output, 293138264 bytes, 0 underruns
+     863727 packets output, 293138940 bytes, 0 underruns
      0 output errors, 0 collisions, 0 interface resets
      0 unknown protocol drops
      0 babbles, 0 late collision, 0 deferred
@@ -62,19 +62,19 @@ GigabitEthernet3 is up, line protocol is up
   Full Duplex, 1000Mbps, link type is auto, media type is Virtual
   output flow-control is unsupported, input flow-control is unsupported
   ARP type: ARPA, ARP Timeout 04:00:00
-  Last input 00:00:14, output 00:00:00, output hang never
+  Last input 00:00:29, output 00:00:15, output hang never
   Last clearing of "show interface" counters 42w4d
   Input queue: 0/375/0/0 (size/max/drops/flushes); Total output drops: 0
   Queueing strategy: fifo
   Output queue: 0/40 (size/max)
   5 minute input rate 0 bits/sec, 0 packets/sec
   5 minute output rate 0 bits/sec, 0 packets/sec
-     863726 packets input, 293105575 bytes, 0 no buffer
+     863728 packets input, 293106251 bytes, 0 no buffer
      Received 0 broadcasts (0 IP multicasts)
      0 runts, 0 giants, 0 throttles 
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
      0 watchdog, 0 multicast, 0 pause input
-     863719 packets output, 293136238 bytes, 0 underruns
+     863722 packets output, 293137252 bytes, 0 underruns
      0 output errors, 0 collisions, 0 interface resets
      0 unknown protocol drops
      0 babbles, 0 late collision, 0 deferred
@@ -89,19 +89,19 @@ GigabitEthernet4 is up, line protocol is up
   Full Duplex, 1000Mbps, link type is auto, media type is Virtual
   output flow-control is unsupported, input flow-control is unsupported
   ARP type: ARPA, ARP Timeout 04:00:00
-  Last input 00:00:13, output 00:00:28, output hang never
+  Last input 00:00:28, output 00:00:14, output hang never
   Last clearing of "show interface" counters 42w4d
   Input queue: 0/375/0/0 (size/max/drops/flushes); Total output drops: 0
   Queueing strategy: fifo
   Output queue: 0/40 (size/max)
   5 minute input rate 0 bits/sec, 0 packets/sec
   5 minute output rate 0 bits/sec, 0 packets/sec
-     863730 packets input, 293106897 bytes, 0 no buffer
+     863732 packets input, 293107573 bytes, 0 no buffer
      Received 0 broadcasts (0 IP multicasts)
      0 runts, 0 giants, 0 throttles 
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
      0 watchdog, 0 multicast, 0 pause input
-     863721 packets output, 293136983 bytes, 0 underruns
+     863724 packets output, 293137997 bytes, 0 underruns
      0 output errors, 0 collisions, 0 interface resets
      0 unknown protocol drops
      0 babbles, 0 late collision, 0 deferred
@@ -116,19 +116,19 @@ GigabitEthernet5 is up, line protocol is up
   Full Duplex, 1000Mbps, link type is auto, media type is Virtual
   output flow-control is unsupported, input flow-control is unsupported
   ARP type: ARPA, ARP Timeout 04:00:00
-  Last input 00:00:24, output 00:00:25, output hang never
+  Last input 00:00:09, output 00:00:10, output hang never
   Last clearing of "show interface" counters 42w4d
   Input queue: 0/375/0/0 (size/max/drops/flushes); Total output drops: 0
   Queueing strategy: fifo
   Output queue: 0/40 (size/max)
   5 minute input rate 0 bits/sec, 0 packets/sec
   5 minute output rate 0 bits/sec, 0 packets/sec
-     863732 packets input, 293107618 bytes, 0 no buffer
+     863735 packets input, 293108632 bytes, 0 no buffer
      Received 0 broadcasts (0 IP multicasts)
      0 runts, 0 giants, 0 throttles 
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
      0 watchdog, 0 multicast, 0 pause input
-     863723 packets output, 293137562 bytes, 0 underruns
+     863726 packets output, 293138576 bytes, 0 underruns
      0 output errors, 0 collisions, 0 interface resets
      0 unknown protocol drops
      0 babbles, 0 late collision, 0 deferred
@@ -143,19 +143,19 @@ GigabitEthernet6 is up, line protocol is up
   Full Duplex, 1000Mbps, link type is auto, media type is Virtual
   output flow-control is unsupported, input flow-control is unsupported
   ARP type: ARPA, ARP Timeout 04:00:00
-  Last input 00:00:29, output 00:00:26, output hang never
+  Last input 00:00:15, output 00:00:12, output hang never
   Last clearing of "show interface" counters 42w4d
   Input queue: 0/375/0/0 (size/max/drops/flushes); Total output drops: 0
   Queueing strategy: fifo
   Output queue: 0/40 (size/max)
   5 minute input rate 0 bits/sec, 0 packets/sec
   5 minute output rate 0 bits/sec, 0 packets/sec
-     863732 packets input, 293107671 bytes, 0 no buffer
+     863735 packets input, 293108685 bytes, 0 no buffer
      Received 0 broadcasts (0 IP multicasts)
      0 runts, 0 giants, 0 throttles 
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
      0 watchdog, 0 multicast, 0 pause input
-     863723 packets output, 293137510 bytes, 0 underruns
+     863726 packets output, 293138524 bytes, 0 underruns
      0 output errors, 0 collisions, 0 interface resets
      0 unknown protocol drops
      0 babbles, 0 late collision, 0 deferred
@@ -170,19 +170,19 @@ GigabitEthernet7 is up, line protocol is up
   Full Duplex, 1000Mbps, link type is auto, media type is Virtual
   output flow-control is unsupported, input flow-control is unsupported
   ARP type: ARPA, ARP Timeout 04:00:00
-  Last input 00:00:13, output 00:00:17, output hang never
+  Last input 00:00:28, output 00:00:02, output hang never
   Last clearing of "show interface" counters 42w4d
   Input queue: 0/375/0/0 (size/max/drops/flushes); Total output drops: 0
   Queueing strategy: fifo
   Output queue: 0/40 (size/max)
   5 minute input rate 0 bits/sec, 0 packets/sec
   5 minute output rate 0 bits/sec, 0 packets/sec
-     857487 packets input, 290938088 bytes, 0 no buffer
+     857489 packets input, 290938764 bytes, 0 no buffer
      Received 0 broadcasts (0 IP multicasts)
      0 runts, 0 giants, 0 throttles 
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
      0 watchdog, 0 multicast, 0 pause input
-     857474 packets output, 290966736 bytes, 0 underruns
+     857476 packets output, 290967412 bytes, 0 underruns
      0 output errors, 0 collisions, 5 interface resets
      0 unknown protocol drops
      0 babbles, 0 late collision, 0 deferred

@@ -18,10 +18,10 @@ software.
 
 ROM: IOS-XE ROMMON
 
-cisco5 uptime is 1 year, 27 weeks, 5 days, 12 minutes
-Uptime for this control processor is 1 year, 27 weeks, 5 days, 14 minutes
+cisco6 uptime is 1 year, 27 weeks, 5 days, 10 minutes
+Uptime for this control processor is 1 year, 27 weeks, 5 days, 13 minutes
 System returned to ROM by reload
-System restarted at 11:56:39 PST Mon Nov 11 2019
+System restarted at 11:59:59 PST Mon Nov 11 2019
 System image file is "bootflash:packages.conf"
 Last reload reason: reload
 

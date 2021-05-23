@@ -5,7 +5,7 @@ Compiled Thu 02-Aug-18 12:15 by prod_rel_team
 
 ROM: System Bootstrap, Version 12.4(22r)YB5, RELEASE SOFTWARE (fc1)
 
-cisco1 uptime is 23 weeks, 5 days, 1 hour, 29 minutes
+cisco1 uptime is 23 weeks, 5 days, 1 hour, 30 minutes
 System returned to ROM by reload at 10:31:35 PST Tue Dec 8 2020
 System restarted at 10:32:19 PST Tue Dec 8 2020
 System image file is "flash:c880data-universalk9-mz.155-3.M8.bin"
